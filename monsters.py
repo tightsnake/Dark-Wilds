@@ -1,4 +1,3 @@
-from system import clear_screen
 from ascii_art import art_dict
 from stats import BaseStats, CurrentStats
 
@@ -24,6 +23,6 @@ class Monster(BaseStats, CurrentStats):
 
 ghost = Monster("Ghost", 1, 1, 1, 5)
 devil = Monster("Devil", 1, 1, 1, 5)
+skeleton_warrior = Monster("Skeleton Warrior", 3, 3, 3, 10)
 
-monster_dict = {"Ghost": ghost, "Devil": devil}
-
+monster_dict = {"Ghost": ghost, "Devil": devil, "Skeleton Warrior" : skeleton_warrior}

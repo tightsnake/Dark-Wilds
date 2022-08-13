@@ -2,7 +2,7 @@ from stats import BaseStats, CurrentStats
 
 
 def get_player_name():
-    player_name = input("What is your name, adventurer?")
+    player_name = input("What is your name, adventurer?\n")
     return player_name
 
 class Player(BaseStats, CurrentStats):
